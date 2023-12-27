@@ -54,7 +54,7 @@
 <main class=" container">
 	<section>
 		<form method="POST" autocomplete="off" use:enhance={onSubmit}>
-			<button type="submit">Salvar personagem</button>
+			<button type="submit">Save character</button>
 			<label for="name">
 				Character name:
 				<input name="name" type="text" value={character.name} />
